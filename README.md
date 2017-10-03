@@ -11,3 +11,5 @@ tinyMath.Square("number");<br>
 tinyMath.Cube("number");<br>
 tinyMath.Power("number", "power");<br>
 tinyMath.Factorial("number");<br>
+
+To get the answer use the variable: tinyMath.ans

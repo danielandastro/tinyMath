@@ -2,7 +2,7 @@
 A small c# library for math operations and a few expanded math functions.
 Operations - Add, subtract, multiply, divide, square, cube, raise to a power, factorial.
 
-Calling methods.
+Calling methods <br>
 tinyMath.Add("number1", "number2"); <br>
 tinyMath.Subtract("number1", "number2");<br>
 tinyMath.Multiply("number1", "number2");<br>

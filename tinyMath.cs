@@ -1,0 +1,61 @@
+﻿using System;
+
+public class tinyMath
+{
+    public static decimal ans;
+
+
+    public static void Add(decimal add1, decimal add2)
+    {
+         ans = add1 + add2;
+
+    }
+    public static void Subtract( decimal sub1, decimal sub2)
+    {
+        ans = sub1 - sub2;
+    }
+    public static void Divide(decimal div1, decimal div2)
+    {
+         ans = div1 / div2;
+    }
+    public static void Multiply(decimal mul1, decimal mul2)
+    {
+        ans = mul1 * mul2;
+    }
+    public static void Square(decimal sqr)
+    {
+        ans = sqr * sqr;
+    }
+    public static void Cube(decimal cube)
+    {
+        ans = cube * cube;
+        ans = ans * cube;
+    }
+    public static void Power(decimal num, int power)
+    {
+        if (power == 1) { ans = num; }
+        else if (power == 0) { ans = 1; }
+        else if (power < 0) { Console.WriteLine("Unsupported"); ans = 0; }
+        else
+        {
+            int current = 1;
+            ans = num;
+            while (current < power)
+            {
+                current++;
+                ans = ans * num;
+            }
+        }
+    }
+    public static void Factorial(decimal num)
+    {
+        tinyMath.ans = 1;
+        int counter = 1;
+        while (counter < num)
+        {
+            counter++;
+            ans = ans * counter;
+        }
+    }
+
+}

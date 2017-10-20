@@ -18,7 +18,7 @@ To get the answer use the variable: tinyMath.ans}<br> <b>Deprecated</b>
 New sample code is here: <br>
 
 using System;<br>
-using extendedmath;<br>
+using tinyMath;<br>
 <br>
 namespace tinyTest<br>
 {<br>

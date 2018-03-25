@@ -28,8 +28,8 @@ namespace tinyTest<br>
         {<br>
             TinyMath t = new TinyMath();<br>
 
-            double x = t.Add(6, 7.6);<br>
-            Console.Write(x);<br>
+            double x = t.Add(6, 7.6);
+            Console.Write(x);
 
         }
     }
